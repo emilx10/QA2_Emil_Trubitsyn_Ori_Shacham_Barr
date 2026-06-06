@@ -1,0 +1,24 @@
+Torch Mission Evidence
+
+Concept implemented:
+- Player can walk near torches and press E to light them.
+- Lit torches glow yellow using an enabled point light and emissive material color.
+- A lit torch stays lit after the player walks away.
+- The generated room contains 3 torches.
+
+How to test without compiler errors:
+1. In Unity, click Assets > Refresh.
+2. Open Window > General > Console.
+3. Clear the Console.
+4. Run Tools > Torch Mission > Run Console Test Report.
+5. Screenshot the PASS lines and summary.
+
+Required categories covered in Console report:
+- Unit Test
+- Integration Test
+- Regression Test
+- Smoke Test
+- Functional Test
+
+For TDD fail-stage screenshots:
+Run Tools > Torch Mission > Print TDD Fail Stage Screenshot Labels and screenshot the red Console entries.
